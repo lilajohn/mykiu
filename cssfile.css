@@ -1,0 +1,49 @@
+<style>
+  .parent {
+    position: relative;
+  }
+  
+  .child {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+  }
+  
+  .close-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    cursor: pointer;
+    background-color: yellow;
+  }
+  
+  .video-js button{
+  outline: none;
+}
+
+.video-js .vjs-big-play-button{ 
+  color: RGB(255, 204, 25);
+
+}
+.vjs-loading-spinner { 
+  font-size: 2.5em;
+  width: 2em;
+  height: 2em;
+  border-radius: 1em;
+  margin-top: -1em;
+  margin-left: -1.5em;
+}
+.video-js .vjs-control-bar{ 
+  display: flex;
+}
+.video-js .vjs-play-progress{
+  color: #ffb845;
+  background-color: #FFCC19;
+}
+</style>
